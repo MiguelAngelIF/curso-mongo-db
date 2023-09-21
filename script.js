@@ -12,5 +12,5 @@ var total_elementos_arreglo = items.length;
   }
 }
 //salida buscar en el arreglo la posicion de un elemento
-var resultado = busqueda(items,posicion_a_buscar);
+var resultado = busqueda(items,7);
 console.log(resultado);
