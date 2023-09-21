@@ -5,7 +5,7 @@ function busqueda(items, posicion_a_buscar){
 var i = 0;
 var total_elementos_arreglo = items.length;
   while(i < total_elementos_arreglo){
-    if([i] === posicion_a_buscar){
+    if(i === posicion_a_buscar){
       return items[i];
     }
     i++;
