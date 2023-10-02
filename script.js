@@ -18,8 +18,8 @@ galaxias = Array.apply(null, Array(10000)).map(function () {
 var count = 10000;
 var start = new Date();
 for (i = 0; i < count; i++) {
-  // Llama a la función countAllStart, asegúrate de que esté definida correctamente
-  // countAllStart(galaxias, 9999);
+  // Llama a la función countAllStart
+  funcionContarEstrellas(galaxias, 9999);
 }
 var miliseconds = new Date() - start;
 document.write("Tiempo en ms: " + miliseconds);
