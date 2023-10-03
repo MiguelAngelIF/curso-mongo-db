@@ -3,7 +3,7 @@ const manzanas = [2,5,3,4,9,5,67,54];
 const arrayModificado = numeros.map(funcionMultiplicar)
 
 function funcionMultiplicar(manzanas){
-  return numero * 10;
+  return manzanas * 10;
 }
 
 document.querySelector('#header').innerHTML = arrayModificado;
