@@ -13,13 +13,15 @@ const resultado = arrayModificado.join(', ');
 // Asignar la cadena al elemento con el id "header"
 document.querySelector('#header').textContent = resultado;
 
-
 const nums = ["1","2","3","4","5"];
 
 // Función para imprimir en la página web
 function imprimirEnPagina(texto) {
     const resultadoDiv = document.getElementById("resultado2");
-    resultadoDiv.innerHTML += `<p>${texto}</p>`;
+    // Obtener el contenido actual
+    const contenidoActual = resultadoDiv.innerHTML;
+    // Agregar el nuevo contenido al contenido actual
+    resultadoDiv.innerHTML = contenidoActual + `<p>${texto}</p>`;
 }
 
 nums.forEach(() => imprimirEnPagina("Un elemento."));
