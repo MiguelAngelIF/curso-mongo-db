@@ -12,3 +12,7 @@ const resultado = arrayModificado.join(', ');
 
 // Asignar la cadena al elemento con el id "header"
 document.querySelector('#header').textContent = resultado;
+
+const nums = ["1","2","3","4","5"];
+
+document.querySelector('#header').textContent = nums.forEach(() => console.log("Un elemento."));
