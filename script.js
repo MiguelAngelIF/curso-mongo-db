@@ -15,4 +15,5 @@ document.querySelector('#header').textContent = resultado;
 
 const nums = ["1","2","3","4","5"];
 
-document.querySelector('#header').textContent = nums.forEach(() => console.log("Un elemento."));
+var resultado2 = nums.forEach(() => console.log("Un elemento."));
+const resultadoContainer = document.getElementById("resultado2");
