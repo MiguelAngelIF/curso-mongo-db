@@ -26,4 +26,12 @@ function imprimirEnPagina(texto) {
 
 nums.forEach(() => imprimirEnPagina("Un elemento."));
 
+//---------------------------- Utilizando nuevos metodos -------------------//
+const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const arr3 = ["Robin"];
 
+// Utilizando una arrow function para concatenar los arrays
+const children = () => [...arr1,...arr2,...arr3];
+
+console.log(children()); 
